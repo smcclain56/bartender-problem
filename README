@@ -1,0 +1,23 @@
+README
+@AUTHOR Sarah McClain
+@DATE 4/8/19
+
+[INTRODUCTION]
+
+Homework 6 is a solution to the bartender problem using semaphores to synchronize n number of threads.
+
+[CONTENTS]
+
+In addition to starter code provided by David Chiu, Homework 6 contains several altered files:
+
+	* globals.h, which handles declares the semaphores
+	* bartener.c, which is models the bartenders interaction with the customers
+	* customer.c, which models each customers threads interactions with the bartender
+  * thebar.c, which initializes and destroys the semaphores and also contains the main function
+	* This README.
+
+[USE]
+
+	* Enter the /c/ directory
+	* Run the `make` command in console to compile the full program.
+	* Run ./thebar n where n is the number of customer threads you wish to spawn
